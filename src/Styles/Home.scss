@@ -1,0 +1,148 @@
+#home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+
+  >section {
+    width: 100%;
+    border-top: 1px solid whitesmoke;
+
+    &:first-of-type {
+      padding-left: 10vw;
+      padding-top: 2vw;
+
+      >div {
+        height: 100%;
+        padding-top: 8rem;
+
+        >h1 {
+          font-size:  5rem;
+          font-weight: 800;
+         font-family: "vazir";
+        }
+
+        .typewriterpara {
+          margin: 10px 0;
+          height: 5px;
+          letter-spacing: 1px;
+          font-size: 1.7rem;
+          font-family: "vazir";
+          
+        }
+
+        >p {
+          font-size: 1.7rem;
+          padding-top: 1vw;
+          font-family: "vazir";        
+        }
+        >div {
+          display: flex;
+          margin: 1vw 0;
+          width: 100%;
+          gap: 4vw;
+          align-items: center;
+          >a {
+            &:first-of-type {
+              background-color: wheat;
+              font-size: 1.4rem;
+              color: black;
+              padding: 0.7rem 1.2rem;
+              transition: all 0.3s;
+              border-radius: 5px;
+              font-family: "vazir";
+
+              &:hover {
+                background-color: rgb(240, 204, 137)
+              }
+            }
+
+            &:last-of-type {
+              color: whitesmoke;
+              border-radius: 5px;
+              display: flex;
+              font-size: 1.4rem;
+              align-items: center;
+              font-family: "vazir";
+              padding: 0.6rem 0.6rem;
+              background-color: rgba(240, 248, 255, 0.282);
+              gap: 1rem;
+
+              &:hover {
+                background-color: rgba(220, 218, 215, 0.513)
+              }
+
+            }
+
+          }
+        }
+        aside {
+          display: flex;
+          gap: 5.5vw;
+          >article {
+            margin-top: 0.5rem;
+            >p {
+              font-size: 2vw;
+              padding-bottom: 0.4vw;
+              text-align: center;
+              font-family: "vazir";
+
+            }
+          }
+
+        }
+
+      }
+
+    }
+    &:last-of-type {
+      border-top: 1px solid whitesmoke;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10vw;
+    
+
+      >img {
+        width: 25vw;
+        height: 25vw;
+        object-fit: cover;
+        align-items: center;
+        border-radius: 50%;
+        order: 1;
+        border: 9px solid rgba(255, 255, 255, 0.197);
+        animation: rahul 8s ease-in-out infinite 1s;
+  
+
+        @keyframes rahul {
+
+          0% {
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+          }
+
+          50% {
+            border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+          }
+
+          100% {
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+          }
+        }
+
+      }
+    }
+  }
+  >svg {
+    position: absolute;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    left: 50%;
+    bottom: 2%;
+    transform: translateX(-50%);
+    animation: animateSvg 0.7s infinite linear alternate;
+    @keyframes animateSvg {
+      to{
+        transform: translate(-50%,-10px);
+      }
+    }
+  }
+}

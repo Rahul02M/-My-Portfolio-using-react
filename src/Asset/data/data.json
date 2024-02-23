@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "date": "07/10/2022",
+      "title": "Sundown Studio",
+      "description": "“I crafted a single-page(clone) website using HTML, CSS, JavaScript, locomotive.js (for smooth scrolling ) swipe js(for Slider) remixicon(for icon), and Additionally, I ensured that the website is fully responsive across various devices👨‍💻📱.”",
+      "url": "https://sun-down.netlify.app/",
+      "imgSrc": "https://d2ocroys3p1hkd.cloudfront.net/e39ffe12d83bec2129917dc74f05b83e.jpg",
+      "giturl":"https://github.com/Rahul02M/Sundown-Studio-Clone-website"
+    },
+
+    {
+      "date": "11/10/2022",
+      "title": "Two Good Co.",
+      "description": 
+     "“I crafted a single-page website using HTML, CSS, and JavaScript, weaving in captivating GSAP animations. Additionally, I ensured that the website is fully responsive across various devices.”",
+      "url": "https://two-good-do-80303d.netlify.app/",
+      "imgSrc": "https://assets.website-files.com/62f1369473450251d6fc616f/64ae5fa4cdf1439a9fa560bc_twogood.com%201.jpg",
+      "giturl":"https://github.com/Rahul02M/Two-Good-Co-clone-landing-page"
+    },
+    {
+      "date": "17/10/2022",
+      "title": "Ochi",
+      "description": "“I crafted a single-page website using React JS (React & Vite) , incorporates Tailwind CSS for styling.It features animated transitions using Framer Motion, Locomotive-scroll and includes custom icons from React Icons.”",
+      "url": "https://ochi-web.netlify.app/",
+      "imgSrc":"https://assets.awwwards.com/awards/gallery/2022/09/ochi-interior-image01.jpg",
+      "giturl":"https://github.com/Rahul02M/React--ochi-clone"
+    },
+    {
+      "date": "20/10/2022",
+      "title": "Portfolio",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "/",
+      "imgSrc": "https://www.motocms.com/blog/wp-content/uploads/2018/05/portfolio-768x478.jpg"
+      
+    }
+  ]
+}

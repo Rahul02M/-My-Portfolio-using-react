@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Poppins:ital,wght@0,100;0,800;0,900;1,100;1,700;1,800&family=Protest+Riot&display=swap');
+
+
+@import"Header";
+@import"Home";
+@import"Work";
+@import"Project";
+@import"Contact";
+@import"mediaquery";
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto",sans-serif,"Poppins" ;
+  scroll-behavior: smooth;
+  }
+  a{
+    text-decoration: none;
+  }
+  body{
+    background-color: black;
+    color: aliceblue;
+  }
+
+
+

@@ -1,0 +1,170 @@
+#Contact{
+  width: 100%;
+  height: 100%;
+>h2{
+    text-align: center;
+    font-size: 4vw; 
+    padding-top: 6.2vw ;
+    font-family: "vazir";
+  }
+>.Typewriter{
+    text-align: center;
+    font-size: 1.5vw; 
+  }
+>.MainContainer{
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+    gap: 20vw;
+//-----link-----//
+>.LinkContainer{
+      height: 100%;
+      padding: 1vw;
+    >.LinkTitle{
+      padding-bottom: 2vw ;
+      font-size: 1.5vw;
+      text-align: center;
+      font-family: "vazir";
+    }
+    .LinkInfo{
+      display: flex;
+      flex-direction: column;
+      gap: 2vw;
+      >.ContactLink {
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.863);
+        background-color: rgba(240, 248, 255, 0.282);
+        border-radius: 10px;
+        padding: 0.7vw 3vw;
+        transition: .4s;
+     &:hover{
+      background-color: rgba(220, 218, 215, 0.513)
+     }
+       >i{
+        font-size: 2vw;
+       }
+       h3{
+        font-size: 1.2vw;
+       }
+       p{
+        font-size: 0.9vw;
+       }
+       >a{
+        color: rgb(255, 255, 255);
+        align-items: center;
+        font-size: 0.9vw;
+        >i{
+          padding-left: 1vw ;
+          font-size: 13px;
+         ;
+      
+        }
+        
+       }
+
+      }
+    }
+    
+  }
+//-----form-----//  
+>.ContactForm{
+    height: 100%;
+    padding: 1vw;
+>.ContactTitle{
+        padding-bottom: 2vw ;
+        font-size: 1.5vw;
+        text-align: center;
+        font-family: "vazir";
+    }
+>.Form{
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  width: 23vw;
+>.Contactformdiv{
+  position: relative;
+  margin-bottom: 2vw ;
+  height: 8vh;
+>.input{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height: 100%;
+            border: 2px solid rgba(237, 236, 236, 0.811);
+            font-size: 1vw;
+            background: none;
+            color: white;
+            outline: none;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            z-index: 1;
+   }
+>.tag{
+            position: absolute;
+            top: -0.75em;
+            left: 1.25vw;
+            font-size: 18px;
+            padding: 0.25vw; 
+            background-color: black;
+            z-index: 10;
+       }
+>#textarea{
+  height: 14vh;
+}
+        }
+    }
+>.btn{
+  margin-top: 2.9vw;
+  font-size: 1vw;
+  padding: 0.7vw;
+  border-radius: 10px;
+  
+  &:hover{ 
+    background-color: rgb(190, 189, 189);
+  }
+}    
+  } 
+}
+//-----scroll----//
+.scrollup{
+  position: fixed;
+  right: 4rem;
+  bottom: -20%;
+  color: black;
+  background-color: white;
+  font-size: 1.5vw;
+  padding: 0.3rem 0.3rem;
+  border-radius: 0.4rem;
+  transition: .4s;
+  >.i{
+    font-size: 1rem;
+    color: black;
+  }
+}
+.scrollup:hover{
+  background-color: rgb(190, 189, 189);
+  color: black;
+}
+.show-scroll{
+  bottom: 7rem;
+}
+//-------footer-----//
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 1.8vw;
+ border-top: 2px solid
+ white;
+ background-color: rgba(240, 248, 255, 0.048);
+}
+.footer-links a {
+  font-size: 1.2vw;
+  color: aliceblue; 
+span{
+    font-size: 0.9vw;
+    padding-right: 8px; 
+
+  }
+}
+}  

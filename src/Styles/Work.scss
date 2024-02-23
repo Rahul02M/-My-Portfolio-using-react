@@ -1,0 +1,55 @@
+#Work{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+h1{
+  font-size: 4vw;
+  text-align: center;
+  padding-top: 7vw ;
+  font-family: "vazir";
+}
+p{
+    padding-top: 1.8vw;
+    font-size: 1.5vw;
+    text-align: center;
+}
+>section{
+    display:grid;
+    grid-template-columns: auto auto auto  auto  auto;
+    padding: 0vw 8vw;
+    padding-top: 4vw;
+    gap:2vw;   
+
+>div{
+ height: 23h;
+ width:  23vh;        
+ background: whitesmoke;
+ border-radius: 20px;
+ overflow: hidden;
+ transition: .4s;
+ &:hover{
+  box-shadow: 0 5px 9px rgb(175, 184, 184);
+
+}
+ //animation: rahul  8s  ease-in-out  infinite 1s;
+
+// @keyframes rahul {
+  
+ // 0%{
+  //  border-radius:  60% 40% 30% 70%/60% 30% 70% 40%;
+ // }
+ // 50%{
+  //  border-radius: 30% 60% 70% 40%/50% 60% 30% /60% ;
+  //}
+ // 100%{
+   // border-radius: 60% 40% 30% 70%/60% 30% 70% 40% ;
+ // }
+ //}
+
+ >img{
+  width: 100%;
+  height: 99%;
+    }
+  }  
+
+}}
