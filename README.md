@@ -1,5 +1,4 @@
-    # React-JS-Portfolio
-
+# React-JS-Portfolio
 
 1. Introduction
 
